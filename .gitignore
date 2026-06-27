@@ -1,0 +1,10 @@
+node_modules
+.config.json
+*.log
+patch.js
+patch.py
+fix_encoding.js
+Background_Alianca.bat
+test*.js
+.users.json
+.userdata.json

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1781829892642",
+    "name": "midori",
+    "displayName": "Midori",
+    "passwordHash": "6b1c940d2997ac6009a53c30faaaf7d75bad028206f392229f139b1294f2986c",
+    "createdAt": "2026-06-19T00:44:52.643Z"
+  },
+  {
+    "id": "1781829925759",
+    "name": "vinicius",
+    "displayName": "VInicius",
+    "passwordHash": "78ca4e3bf7ff9a0d7addeec7d68b4434046c91f7a89c251f8746be957f89ca0f",
+    "createdAt": "2026-06-19T00:45:25.759Z"
+  }
+]

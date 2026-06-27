@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aliança Divergente — Assistente de Protocolos</title>
+  <meta name="description" content="Chat interativo para rodar protocolos da Aliança Divergente no estilo Elton Euler. Combata dependência emocional, medos e construa uma vida memorável.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+</head>
+<body>
+  <div class="app-layout" id="appContainer">
+    
+    <!-- ═══════ SIDEBAR ═══════ -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-header" style="display: flex; justify-content: space-between; align-items: center;">
+        <div class="sidebar-brand">
+          <div class="brand-icon">⚡</div>
+          <div class="brand-text">
+            <h1>Aliança Divergente</h1>
+            <p>Assistente de Protocolos</p>
+          </div>
+        </div>
+        <button class="close-sidebar-btn" onclick="toggleSidebar()" style="background: none; border: none; color: var(--text-muted); font-size: 1.5rem; cursor: pointer;">✖</button>
+      </div>
+      
+      <div class="sidebar-content">
+        <!-- Chat -->
+        <div class="sidebar-section">
+          <div class="sidebar-section-title">Chat</div>
+          <div class="sidebar-item active" onclick="showWelcome()" id="nav-home">
+            <span class="item-icon">🏠</span>
+            <span class="item-text">Início</span>
+          </div>
+          <div class="sidebar-item" onclick="showChatMode()" id="nav-chat">
+            <span class="item-icon">💬</span>
+            <span class="item-text">Conversar com Elton</span>
+          </div>
+        </div>
+        
+        <!-- Diagnóstico -->
+        <div class="sidebar-section">
+          <div class="sidebar-section-title">Diagnóstico</div>
+          <div class="sidebar-item" onclick="startProtocol('mapa_nucleo_interno')">
+            <span class="item-icon">🗺️</span>
+            <span class="item-text">Mapa Núcleo Interno</span>
+          </div>
+          <div class="sidebar-item" onclick="startProtocol('mapa_nucleo_externo')">
+            <span class="item-icon">🌐</span>
+            <span class="item-text">Mapa Núcleo Externo</span>
+          </div>
+          <div class="sidebar-item" onclick="startProtocol('analise_nucleo_externo')">
+            <span class="item-icon">🎯</span>
+            <span class="item-text">Análise Núcleo Externo</span>
+          </div>
+          <div class="sidebar-item" onclick="startProtocol('analise_nucleo_interno')">
+            <span class="item-icon">🔎</span>
+            <span class="item-text">Análise Núcleo Interno</span>
+          </div>
+        </div>
+        
+        <!-- Tratamento -->
+        <div class="sidebar-section">
+          <div class="sidebar-section-title">Tratamento</div>
+          <div class="sidebar-item" onclick="startProtocol('combate_medo')">
+            <span class="item-icon">⚔️</span>
+            <span class="item-text">Combate do Medo</span>
+          </div>
+          <div class="sidebar-item" onclick="startProtocol('dep_emocional_ativa')">
+            <span class="item-icon">🔓</span>
+            <span class="item-text">Dep. Emocional Ativa</span>
+          </div>
+          <div class="sidebar-item" onclick="startProtocol('dep_emocional_passiva')">
+            <span class="item-icon">🛡️</span>
+            <span class="item-text">Dep. Emocional Passiva</span>
+          </div>
+        </div>
+        
+        <!-- Manutenção -->
+        <div class="sidebar-section">
+          <div class="sidebar-section-title">Manutenção</div>
+          <div class="sidebar-item" onclick="startProtocol('protecao_emocional')">
+            <span class="item-icon">🔰</span>
+            <span class="item-text">Proteção Emocional</span>
+          </div>
+          <div class="sidebar-item" onclick="startProtocol('contraste_controle')">
+            <span class="item-icon">📊</span>
+            <span class="item-text">Contraste de Controle</span>
+          </div>
+        </div>
+        
+        <!-- Análise Inteligente -->
+        <div class="sidebar-section">
+          <div class="sidebar-section-title">Análise Inteligente</div>
+          <div class="sidebar-item" onclick="showAnaliseProtocolo()" id="nav-analise">
+            <span class="item-icon">🧠</span>
+            <span class="item-text">Analisar meu Protocolo</span>
+          </div>
+          <div class="sidebar-item" onclick="showSavedAnalyses()" id="nav-saved-analyses">
+            <span class="item-icon">💾</span>
+            <span class="item-text">Análises Salvas</span>
+          </div>
+        </div>
+        
+        <!-- Ferramentas -->
+        <div class="sidebar-section">
+          <div class="sidebar-section-title">Ferramentas</div>
+          <div class="sidebar-item" onclick="startProtocol('conversas_dificeis')">
+            <span class="item-icon">🗣️</span>
+            <span class="item-text">Conversas Difíceis</span>
+          </div>
+          <div class="sidebar-item" onclick="startProtocol('pense_comigo')">
+            <span class="item-icon">💭</span>
+            <span class="item-text">Pense Comigo</span>
+          </div>
+          <div class="sidebar-item" onclick="showEscadaPostura()">
+            <span class="item-icon">🪜</span>
+            <span class="item-text">Escada da Postura</span>
+          </div>
+          <div class="sidebar-item" onclick="showGlossario()">
+            <span class="item-icon">📖</span>
+            <span class="item-text">Glossário</span>
+          </div>
+          <div class="sidebar-item" onclick="showPremissas()">
+            <span class="item-icon">📜</span>
+            <span class="item-text">Premissas</span>
+          </div>
+        </div>
+        
+        <!-- User & Logout -->
+        <div class="sidebar-section" style="margin-top: auto; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.06);">
+          <div class="sidebar-item" onclick="doLogout()" style="opacity: 0.7;">
+            <span class="item-icon">🚪</span>
+            <span class="item-text">Sair</span>
+          </div>
+        </div>
+      </div>
+    </aside>
+    
+    <!-- ═══════ MAIN AREA ═══════ -->
+    <main class="main-area">
+      
+      <!-- Header -->
+      <header class="main-header">
+        <button class="toggle-sidebar-btn" onclick="toggleSidebar()" title="Menu">☰</button>
+        <div class="header-title" id="headerTitle">
+          <h2>Aliança Divergente</h2>
+          <p>Assistente de Protocolos — Elton Euler</p>
+        </div>
+        <div class="header-actions">
+          <span id="userBadge" style="display:none; font-size:0.75rem; color:var(--text-gold); background:rgba(212,175,55,0.12); padding:4px 10px; border-radius:12px; margin-right:4px; font-weight:600;"></span>
+          <button class="header-btn" onclick="showSettings()" title="Configurações">
+            ⚙️
+          </button>
+          <button class="header-btn" onclick="exportCurrentProtocol()" id="btnExport" style="display:none">
+            📥 Exportar
+          </button>
+          <button class="header-btn" onclick="showSavedProtocols()" id="btnSaved">
+            📂 Salvos
+          </button>
+          <button class="header-btn primary" onclick="showWelcome()">
+            ✨ Novo
+          </button>
+        </div>
+      </header>
+      
+      <!-- Chat Container -->
+      <div class="chat-container" id="chatContainer">
+        <!-- Content injected by JS -->
+      </div>
+      
+      <!-- Input Area -->
+      <div class="input-area" id="inputArea">
+        <div class="input-wrapper">
+          <div class="input-field-wrapper">
+            <textarea 
+              class="chat-input" 
+              id="chatInput" 
+              placeholder="Digite sua mensagem ou dúvida..."
+              rows="1"
+              onkeydown="handleInputKeydown(event)"
+              oninput="autoResizeInput(this)"
+            ></textarea>
+          </div>
+          <button class="send-btn" onclick="handleSend()" title="Enviar">➤</button>
+        </div>
+      </div>
+      
+    </main>
+  </div>
+  
+  <!-- Scripts -->
+  <script src="knowledge.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
