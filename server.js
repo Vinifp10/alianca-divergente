@@ -15,6 +15,17 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json({ limit: '50mb' }));
 app.use(express.static(path.join(__dirname)));
 
+// Debug route
+app.get('/api/debug', (req, res) => {
+  const dir = fs.readdirSync(__dirname);
+  res.json({ dirname: __dirname, cwd: process.cwd(), files: dir, port: PORT });
+});
+
+// Explicit root fallback
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'index.html'));
+});
+
 // ─── Chave da API armazenada em memória ───────────────────
 let apiKey = process.env.GEMINI_API_KEY || '';
 let configPath = path.join(__dirname, '.config.json');
