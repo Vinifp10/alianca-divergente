@@ -1585,6 +1585,23 @@ function exportCurrentProtocol() {
   showModal('Exportar Protocolo', text);
 }
 
+// ─── MERGE HELPER ────────────────────────────────────────────
+function mergeArrays(localArr, serverArr) {
+  if (!serverArr || serverArr.length === 0) return localArr;
+  if (!localArr || localArr.length === 0) return serverArr;
+  
+  const merged = [...localArr];
+  const localTimes = new Set(localArr.map(item => item.savedAt || item.date || JSON.stringify(item)));
+  
+  for (const serverItem of serverArr) {
+    const key = serverItem.savedAt || serverItem.date || JSON.stringify(serverItem);
+    if (!localTimes.has(key)) {
+      merged.push(serverItem);
+    }
+  }
+  return merged;
+}
+
 // ─── CLOUD SYNC ──────────────────────────────────────────────
 async function syncToServer() {
   if (!currentUser) return;
@@ -1608,21 +1625,28 @@ async function syncFromServer() {
     const r = await fetch('/api/userdata?userId=' + currentUser.id);
     const result = await r.json();
     
+    const localP = JSON.parse(localStorage.getItem(userKey('ad_protocols')) || '[]');
+    const localA = JSON.parse(localStorage.getItem(userKey('ad_analyses')) || '[]');
+    const localHasData = localP.length > 0 || localA.length > 0;
+    
     if (result.data) {
-      const serverEmpty = (!result.data.protocols || result.data.protocols.length === 0) && 
-                          (!result.data.analyses || result.data.analyses.length === 0);
-                          
-      const localP = JSON.parse(localStorage.getItem(userKey('ad_protocols')) || '[]');
-      const localA = JSON.parse(localStorage.getItem(userKey('ad_analyses')) || '[]');
-      const localHasData = localP.length > 0 || localA.length > 0;
+      const serverP = result.data.protocols || [];
+      const serverA = result.data.analyses || [];
+      const serverHasData = serverP.length > 0 || serverA.length > 0;
       
-      if (serverEmpty && localHasData) {
+      if (serverHasData && !localHasData) {
+        // Celular vazio, servidor tem dados: baixar do servidor
+        localStorage.setItem(userKey('ad_protocols'), JSON.stringify(serverP));
+        localStorage.setItem(userKey('ad_analyses'), JSON.stringify(serverA));
+      } else if (localHasData) {
+        // Celular tem dados: NUNCA apagar. Mesclar com servidor e subir.
+        const mergedP = mergeArrays(localP, serverP);
+        const mergedA = mergeArrays(localA, serverA);
+        localStorage.setItem(userKey('ad_protocols'), JSON.stringify(mergedP));
+        localStorage.setItem(userKey('ad_analyses'), JSON.stringify(mergedA));
         await syncToServer();
-      } else if (!serverEmpty) {
-        localStorage.setItem(userKey('ad_protocols'), JSON.stringify(result.data.protocols || []));
-        localStorage.setItem(userKey('ad_analyses'), JSON.stringify(result.data.analyses || []));
       }
-    } else {
+    } else if (localHasData) {
       await syncToServer();
     }
   } catch (e) {
