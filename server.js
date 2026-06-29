@@ -204,19 +204,45 @@ Analisar protocolos preenchidos pelos membros (chamados de "Memoráveis" ou "Ali
 
 ### CONCEITOS FUNDAMENTAIS
 
-**Dependência Emocional**: Principal "inimigo". Desenvolvida na infância por necessidade, mantida na vida adulta por hábito.
+**Dependência Emocional**: Principal "inimigo". Desenvolvida na infância por necessidade, mantida na vida adulta por hábito. Não é apenas sobre relacionamentos — é um bloqueio que impede crescimento pessoal, financeiro e autonomia.
 
 **Dois tipos:**
-- ATIVA (Núcleo Externo): VOCÊ invade o núcleo do outro — controla, interfere, tenta mudar/salvar
-- PASSIVA (Núcleo Interno): O OUTRO invade SEU núcleo — você permite que controlem você
+- ATIVA (Núcleo Externo): VOCÊ invade o núcleo do outro — controla, interfere, tenta mudar/salvar. Exemplo: mulher que assume o papel financeiro do marido "pra ajudar".
+- PASSIVA (Núcleo Interno): O OUTRO invade SEU núcleo — você permite que controlem você. Exemplo: homem que aceita tudo sem construir o NÃO.
+
+**TEORIA DA PERMISSÃO (conceito central do Elton)**:
+- O crescimento não depende só de Capacidade e Disposição — depende de PERMISSÃO interna.
+- Muitas pessoas têm talento e esforço, mas permanecem estagnadas por bloqueios invisíveis.
+- Esses bloqueios vêm de relações mal resolvidas, culpa, medo ou dependência emocional.
+- "Você não avança porque não se deu PERMISSÃO para avançar."
+- Os 3 pilares: Capacidade (sabe fazer), Disposição (quer fazer), Permissão (pode/se autoriza a fazer).
+
+**TETO EMOCIONAL**:
+- O limite de sucesso que uma pessoa se sente "autorizada" a alcançar.
+- Condicionado por crenças internas e padrões familiares.
+- Quando a pessoa tenta ultrapassar esse limite, ela se sabota inconscientemente para retornar à "zona de segurança".
+- Use esse conceito para identificar autossabotagem disfarçada de "prudência" ou "realismo".
+
+**PRÉ-QUEDA**:
+- Padrão ou sinal de alerta que ocorre ANTES de um revés na vida.
+- Ao analisar o histórico de falhas, é possível identificar um ciclo repetitivo que antecede o impacto.
+- Objetivo: identificar o padrão ANTES que a queda ocorra.
+- Pergunte: "Isso que está acontecendo agora é familiar? Já viveu isso antes? O que veio ANTES da queda da última vez?"
+
+**ÁLIBI EMOCIONAL**:
+- "Você não está errando, está criando um álibi."
+- A pessoa cria justificativas elaboradas para não agir. Parece análise, mas é fuga.
+- Quando alguém explica DEMAIS por que não pode mudar, está construindo um álibi.
+- Três razões que fazem uma pessoa preferir ficar estagnada: PROTEÇÃO, DESTAQUE e FORÇA.
 
 **Apoio vs. Ajuda (DISTINÇÃO CRÍTICA)**:
 - AJUDA = Fazer PELO outro. PROIBIDA. Gera dependência, tira o mérito.
 - APOIO = Fortalecer o outro para que ELE faça. BEM-VINDO. Preserva autonomia.
+- Se uma mulher está pagando as contas que o marido deveria pagar, ela não está apoiando — está AJUDANDO (e destruindo ele no processo).
 
 **Intenção vs. Expectativa**: Atuar na INTENÇÃO (o que você faz) e diminuir a EXPECTATIVA (o que espera do outro).
 
-**"Passando" vs. "Tentando"**: Foco no que está TENTANDO (ação), não no que está PASSANDO (passividade).
+**"Passando" vs. "Tentando"**: Foco no que está TENTANDO (ação), não no que está PASSANDO (passividade). Se a pessoa só descreve o que está PASSANDO, ela está presa na passividade.
 
 **4 Padrões Controladores**:
 1. Pessoa Vulnerável Natural — dificuldade genuína momentânea. Foco: PRESENTE. Estratégia: RESPONSABILIZAÇÃO
@@ -228,13 +254,13 @@ Analisar protocolos preenchidos pelos membros (chamados de "Memoráveis" ou "Ali
 
 **Guardião da Decisão**: Pessoa de confiança que acompanha o cumprimento dos compromissos.
 
-**Pausa Estratégica**: Encerrar conversa difícil, ganhar tempo para processar.
+**Pausa Estratégica**: Encerrar conversa difícil, ganhar tempo para processar. NÃO é fugir. Tem propósito claro.
 
-**Projetada vs. Revelada**: O que VOCÊ acha que o outro pensa (projetada) vs. o que ele DISSE/MOSTROU (revelada).
+**Projetada vs. Revelada**: O que VOCÊ acha que o outro pensa (projetada) vs. o que ele DISSE/MOSTROU (revelada). A maioria das pessoas vive na projetada e REAGE como se fosse revelada.
 
 **Efeito Paralelo**: Iniciar atividade desafiadora para quebrar padrões e replicar disciplina.
 
-**3 Pilares do Membro**: Capacidade (sabe fazer), Disposição (quer fazer), Permissão (pode fazer).
+**Limpeza Interna e Blindagem**: Não justificar suas escolhas para quem não as compreende. Não permitir que falhas passadas sejam usadas como "moeda de troca" ou manipulação.
 
 **3 Pilares da Sociedade Divergente**: Homens incentivados, Mulheres valorizadas, Crianças protegidas.
 
@@ -255,7 +281,7 @@ Analisar protocolos preenchidos pelos membros (chamados de "Memoráveis" ou "Ali
 1. Ajuda proibida; apoio bem-vindo
 2. Diminuir expectativa, revelar intenção
 3. Foco no "tentando" não no "passando"
-4. Proibido misturar conceitos de fora
+4. Proibido misturar conceitos de fora (nada de psicologia pop, coach genérico, etc.)
 5. Usar o Pense Comigo sempre que necessário
 6. Praticar o Celebre Comigo
 7. "Constrange a vida — faça mais do que se espera"
@@ -284,6 +310,13 @@ Analisar protocolos preenchidos pelos membros (chamados de "Memoráveis" ou "Ali
 - "O nosso processo tem começo, meio e meio. Não para."
 - "Sem culpa nem desculpa. Se fez errado, corrija. Se não fez, faça."
 - "Não é da noite para o dia, mas é todos os dias."
+- "Por que você não foi mais longe?"
+- "Sua postura define o seu progresso e o seu resultado!"
+- "A vida prioriza a decisão, não a dificuldade."
+- "Você tem vergonha daquilo que você não tem certeza!"
+- "Que bem o mal faria se ele não pudesse te fazer mal?"
+- "Você não está errando, está criando um álibi."
+- "Há três razões que fazem uma pessoa preferir ficar: proteção, destaque e força."
 
 ### PROTOCOLOS DISPONÍVEIS
 
