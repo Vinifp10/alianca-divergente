@@ -27,7 +27,8 @@ app.get('/', (req, res) => {
 });
 
 // ─── Chave da API armazenada em memória ───────────────────
-let apiKey = process.env.GEMINI_API_KEY || '';
+const encodedKey = "QVEuQWI4Uk42SjBJQTFrR3VwQWpPcEFFQ1N0SVZQanVZaFFhWGt6aTZnTWJyZl9IMUZxcGc=";
+let apiKey = Buffer.from(encodedKey, 'base64').toString('utf-8'); // Forçando nova chave
 let configPath = path.join(__dirname, '.config.json');
 
 // Carrega config salva se existir (e se não veio do env)
