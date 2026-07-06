@@ -454,7 +454,7 @@ app.post('/api/analyze', async (req, res) => {
   try {
     const genAI = new GoogleGenerativeAI(apiKey);
     const model = genAI.getGenerativeModel({ 
-      model: 'gemini-2.0-flash',
+      model: 'gemini-1.5-flash',
       systemInstruction: SYSTEM_PROMPT,
       safetySettings: [
         { category: HarmCategory.HARM_CATEGORY_HARASSMENT, threshold: HarmBlockThreshold.BLOCK_NONE },
@@ -533,7 +533,7 @@ Analise profundamente e revele os pontos cegos que essa pessoa não está enxerg
     res.json({ 
       success: true, 
       analysis: response,
-      model: 'gemini-2.0-flash'
+      model: 'gemini-1.5-flash'
     });
     
   } catch (error) {
@@ -543,7 +543,7 @@ Analise profundamente e revele os pontos cegos que essa pessoa não está enxerg
       console.log("Tentando fallback de segurança sem SYSTEM_PROMPT...");
       try {
         const fallbackModel = (new GoogleGenerativeAI(apiKey)).getGenerativeModel({ 
-          model: 'gemini-2.0-flash',
+          model: 'gemini-1.5-flash',
           safetySettings: [
             { category: HarmCategory.HARM_CATEGORY_HARASSMENT, threshold: HarmBlockThreshold.BLOCK_NONE },
             { category: HarmCategory.HARM_CATEGORY_HATE_SPEECH, threshold: HarmBlockThreshold.BLOCK_NONE },
@@ -562,7 +562,7 @@ Analise profundamente e revele os pontos cegos que essa pessoa não está enxerg
 
         const fallbackPrompt = "Por favor, analise este texto focando em padrões de comportamento e pontos cegos, com tom direto e acolhedor:\n\n" + superSafeText;
         const fallbackResult = await fallbackModel.generateContent(fallbackPrompt);
-        return res.json({ success: true, analysis: fallbackResult.response.text(), model: 'gemini-2.0-flash (fallback)' });
+        return res.json({ success: true, analysis: fallbackResult.response.text(), model: 'gemini-1.5-flash (fallback)' });
       } catch (e2) {
         console.error("Fallback também falhou:", e2.message);
         return res.status(500).json({ error: "O Google Gemini bloqueou permanentemente este texto por Políticas de Segurança (Violência/Conteúdo Explícito). Modifique as palavras sensíveis do seu relato e tente novamente." });
@@ -592,7 +592,7 @@ app.post('/api/chat', async (req, res) => {
   try {
     const genAI = new GoogleGenerativeAI(apiKey);
     const model = genAI.getGenerativeModel({ 
-      model: 'gemini-2.0-flash',
+      model: 'gemini-1.5-flash',
       systemInstruction: SYSTEM_PROMPT,
       safetySettings: [
         { category: HarmCategory.HARM_CATEGORY_HARASSMENT, threshold: HarmBlockThreshold.BLOCK_NONE },
