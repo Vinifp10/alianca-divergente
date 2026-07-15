@@ -906,7 +906,7 @@ INSTRUÇÕES: Cruze as duas informações e faça uma análise profunda:
   const form = document.getElementById('conversasDificeisAnalysis');
   if (form) form.remove();
   
-  addUserMessage(extraText.substring(0, 400) + (extraText.length > 400 ? '...' : ''));
+  addUserMessage(extraText);
   showTyping();
   
   // Initialize analysis conversation
@@ -1914,7 +1914,7 @@ function restoreSavedAnalysis(id) {
   if (analysis.history && analysis.history.length > 0) {
     analysis.history.forEach(msg => {
       if (msg.role === 'user') {
-        addUserMessage(msg.content.length > 500 ? msg.content.substring(0, 500) + '...' : msg.content);
+        addUserMessage(msg.content);
       } else if (msg.role === 'model') {
         addBotMessage(msg.content);
       }
@@ -2064,7 +2064,7 @@ function runAnalysis() {
   if (form) form.remove();
   
   // Show user text as message
-  addUserMessage(text.substring(0, 500) + (text.length > 500 ? '...' : ''));
+  addUserMessage(text);
   
   // Show typing
   showTyping();
@@ -2748,7 +2748,7 @@ function renderAnalysisResults(originalText, insights, type) {
   if (form) form.remove();
   
   // Show user text as message
-  addUserMessage(originalText.substring(0, 300) + (originalText.length > 300 ? '...' : ''));
+  addUserMessage(originalText);
   
   // Calculate score
   const dangers = insights.filter(i => i.type === 'danger').length;
