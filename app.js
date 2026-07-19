@@ -1730,7 +1730,15 @@ function showSavedAnalyses() {
   chatContainer.innerHTML = '';
   addBotMessage(`💾 **Suas Análises Salvas**\n\nVocê tem **${saved.length}** análise(s) salva(s). Clique para restaurar, ou use **🗣️ Gerar Conversa Difícil** para criar um roteiro automático baseado na análise:`);
   
-  let html = '<div class="glossary-grid">';
+  let html = `
+    <div style="margin-bottom: 20px; text-align: center;">
+      <button onclick="crossReferenceAllAnalyses()" style="padding: 12px 24px; background: linear-gradient(135deg, rgba(212,175,55,0.2), rgba(212,175,55,0.05)); border: 1px solid rgba(212,175,55,0.4); border-radius: 12px; color: var(--text-gold); cursor: pointer; font-size: 0.95rem; font-weight: 600; font-family: 'Inter', sans-serif; transition: all 0.2s; display: inline-flex; align-items: center; gap: 8px;" onmouseover="this.style.background='linear-gradient(135deg, rgba(212,175,55,0.3), rgba(212,175,55,0.1))'" onmouseout="this.style.background='linear-gradient(135deg, rgba(212,175,55,0.2), rgba(212,175,55,0.05))'">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="7.5 4.21 12 6.81 16.5 4.21"></polyline><polyline points="7.5 19.79 7.5 14.6 3 12"></polyline><polyline points="21 12 16.5 14.6 16.5 19.79"></polyline><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+        Cruzar Todas as Análises (Análise Global)
+      </button>
+    </div>
+    <div class="glossary-grid">
+  `;
   saved.sort((a, b) => new Date(b.savedAt) - new Date(a.savedAt)).forEach((a) => {
     const date = new Date(a.savedAt).toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' });
     const typeLabels = {
@@ -1879,6 +1887,84 @@ _A conversa é salva automaticamente — pode voltar depois em 💾 Análises Sa
     addBotMessage(`❌ **Erro:** ${err.message}\n\nTente novamente.`);
     scrollToBottom();
   });
+}
+
+async function crossReferenceAllAnalyses() {
+  const savedAnalyses = getAnalysesSaved();
+  if (savedAnalyses.length < 2) {
+    showToast('⚠️ Você precisa ter pelo menos 2 análises salvas para fazer o cruzamento global.');
+    return;
+  }
+
+  // Gather all texts
+  let combinedContext = 'Aqui estão os textos originais de vários protocolos respondidos pelo Aliado ao longo do tempo:\\n\\n';
+  savedAnalyses.forEach((a, i) => {
+    combinedContext += `--- PROTOCOLO ${i + 1} (${a.protocolType || 'Geral'}) ---\\n`;
+    combinedContext += `${a.originalText || '(Texto não disponível)'}\\n\\n`;
+  });
+
+  const superPrompt = `O Aliado(a) preencheu múltiplos protocolos ao longo do tempo. Abaixo está o compilado de todos os relatos originais dele(a).
+Faça uma ANÁLISE GLOBAL e PROFUNDA cruzando essas informações.
+Revele:
+1. Padrões de comportamento que se repetem.
+2. Os maiores pontos cegos que essa pessoa ainda não enxergou em sua jornada.
+3. Avanços ou contradições entre os relatos.
+Use o tom direto, acolhedor e confrontador característico do Elton Euler. Seja específico e cite elementos que aparecem nos relatos.
+
+${combinedContext}
+--- FIM DOS PROTOCOLOS ---
+
+Gere a análise global agora:`;
+
+  // Setup the UI for the new chat
+  state.mode = 'chat';
+  state.currentAnalysisId = 'global_' + Date.now();
+  state.conversationHistory = [];
+  
+  setActiveNav('nav-chat');
+  updateHeader('🌐 Análise Global', 'Cruzamento de todas as suas análises');
+  chatContainer.innerHTML = '';
+  
+  addBotMessage('🌐 **Iniciando Análise Global...**\\n\\nEstou cruzando todas as informações dos seus protocolos salvos. Isso pode levar alguns segundos. Aguarde...');
+  showTyping();
+
+  try {
+    const response = await fetch('/api/chat', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ 
+        message: superPrompt,
+        history: []
+      })
+    });
+    
+    const data = await response.json();
+    hideTyping();
+    
+    if (data.success) {
+      addBotMessage(data.response);
+      
+      // Save this global analysis
+      state.conversationHistory.push({ role: 'user', content: 'Solicitou o cruzamento de todas as análises salvas.' });
+      state.conversationHistory.push({ role: 'model', content: data.response });
+      
+      if (typeof saveAnalysisToStorage === 'function') {
+        saveAnalysisToStorage({
+          id: state.currentAnalysisId,
+          title: 'Análise Global (Cruzamento)',
+          protocolType: 'geral',
+          originalText: 'Cruzamento de ' + savedAnalyses.length + ' análises.',
+          history: state.conversationHistory,
+          savedAt: new Date().toISOString()
+        });
+      }
+    } else {
+      addBotMessage(`❌ **Erro:** ${data.error}`);
+    }
+  } catch (error) {
+    hideTyping();
+    addBotMessage(`❌ **Erro de conexão:** ${error.message}`);
+  }
 }
 
 function restoreSavedAnalysis(id) {
