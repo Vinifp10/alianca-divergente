@@ -1939,7 +1939,7 @@ Gere a análise global agora:`;
     });
     
     const data = await response.json();
-    hideTyping();
+    removeTyping();
     
     if (data.success) {
       addBotMessage(data.response);
@@ -1962,7 +1962,7 @@ Gere a análise global agora:`;
       addBotMessage(`❌ **Erro:** ${data.error}`);
     }
   } catch (error) {
-    hideTyping();
+    removeTyping();
     addBotMessage(`❌ **Erro de conexão:** ${error.message}`);
   }
 }
