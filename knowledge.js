@@ -72,7 +72,18 @@ const KNOWLEDGE = {
     "Desculpas em Motivos": "A diferença entre usar uma condição como justificativa para ficar paralisado ou como o próprio motivo para se mover e agir.",
     "O Preço do Plano": "Todo sonho ou plano tem um preço. Se a pessoa não está disposta ou não pode pagar esse preço, a única solução realista é diminuir o plano.",
     "Protocolo não é Oração": "Rodar protocolo sem agir (sem concluir o PDA) é usá-lo como fuga. O protocolo exige mudança de comportamento e não deve ser usado como uma reza esperando que o outro mude magicamente.",
-    "Constranger o Outro (Ação Extrema)": "Para quebrar o padrão de alguém (ex: parceiro folgado), ao invés de brigar, você faz MAIS do que o esperado (ex: se arruma e atende perfeitamente). O constrangimento obriga o outro a mudar o comportamento."
+    "Constranger o Outro (Ação Extrema)": "Para quebrar o padrão de alguém (ex: parceiro folgado), ao invés de brigar, você faz MAIS do que o esperado (ex: se arruma e atende perfeitamente). O constrangimento obriga o outro a mudar o comportamento.",
+    "A Pergunta Certa": "A pergunta não é 'por que errei', mas sim 'o que fazer depois que descubro o que é certo fazer'.",
+    "Combinados Inconscientes": "Acordos invisíveis entre as pessoas. Ex: a esposa precisa se sentir útil, então o marido bate o carro para ela poder 'salvar' a situação e alimentar o padrão controlador dela.",
+    "Previsibilidade dos Padrões": "É possível prever o futuro porque os padrões se repetem. O próximo desafio geralmente é um clone amplificado do anterior, até que o padrão seja quebrado.",
+    "Evitar a Queda, Não a Pré-queda": "A pré-queda é inevitável, ela faz parte do processo de crescimento. O que se pode evitar é a QUEDA, através do PDA (Perceber, Decidir e Agir).",
+    "Justificativas Boas (O Refúgio)": "Quando a pessoa quer fugir do próprio desafio, o inconsciente busca 'boas justificativas' nos outros (ex: mudar de cidade porque o parceiro foi transferido), disfarçando a fuga de nobreza.",
+    "Medo da Crítica": "Sintoma da dependência emocional. Pessoas criticam seu crescimento (ex: ganhar mais dinheiro) porque isso escancara o fato de que elas não estão crescendo.",
+    "A Ilusão da Crítica Construtiva": "Crítica construtiva só existe quando foi solicitada e a pessoa está pronta para receber. Fora isso, é apenas uma crítica invasiva de alguém que precisava 'desentalar'.",
+    "Filtro da Sugestão": "A regra é: só aceite opinião de quem consegue dar uma sugestão aplicável. A maioria para de opinar quando exigida uma sugestão, pois não sabem como resolver.",
+    "A Pergunta Limite": "Quando alguém quiser dar uma opinião não solicitada, pergunte: 'Isso é sobre mim ou sobre você?' ou 'Eu preciso mesmo saber disso?'.",
+    "Gestão de Emoções vs Causa": "Tentar 'administrar emoções' é tratar o sintoma. Emoções são reflexos das relações (a causa real). Resolva a dependência relacional e a emoção se ajusta.",
+    "Espiritualização de Problemas": "Usar Deus ou religião para justificar fracassos ou esperar soluções mágicas para problemas relacionais (ex: orar para o narcisista mudar). Deus não é garçom nem jagunço."
   },
 
   // ──────────────────────────────────────────────
@@ -164,7 +175,19 @@ const KNOWLEDGE = {
     "As pessoas têm um sonho, criam um plano, mas se esquecem do preço do plano.",
     "Você acha que eu vou dar aumento para quem não gosta de mim ou acha que eu não gosto dele?",
     "Não transforme protocolo numa oração. Tem gente usando protocolo para esconder o PDA que não concluiu.",
-    "Se você não banca esse plano, diminua. Troque o plano, reduza o plano."
+    "Se você não banca esse plano, diminua. Troque o plano, reduza o plano.",
+    "A pergunta é: o que fazer depois que você descobre o que é certo fazer?",
+    "Teoria da permissão não serve de nada se você não tiver uma decisão.",
+    "Os seus padrões são previsíveis porque eles se repetem. O próximo é um clone amplificado do anterior.",
+    "A pré-queda é inevitável. A queda eu posso evitar.",
+    "Se olhar para mim aumentasse a sua permissão, eu mandava um quadro pra sua casa. O que aumenta a permissão é encarar o padrão.",
+    "O fato de alguém te amar não impede essa pessoa de te fazer mal, mesmo que não seja por mal.",
+    "Crítica construtiva é aquela que é entregue para alguém que pediu e está pronto para receber.",
+    "Isso que você quer me dizer é sobre mim ou sobre você?",
+    "Só aceite opinião com sugestão.",
+    "Nós somos seres racionais com reflexos emocionais por conta das nossas ligações relacionais.",
+    "Condição não pode gerar obrigação.",
+    "Procure um Deus para que você o sirva, e não um Deus que te sirva."
   ],
 
   // ──────────────────────────────────────────────
