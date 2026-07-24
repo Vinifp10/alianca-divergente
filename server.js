@@ -279,6 +279,12 @@ Analisar protocolos preenchidos pelos membros (chamados de "Memoráveis" ou "Ali
 
 **Equivalência**: A vida traz o que a pessoa precisa para se desenvolver, não o que ela quer.
 
+**Teto Financeiro e Dependência**: O limite financeiro de alguém está amarrado às suas relações. Ganhar mais dinheiro pode significar independência. Se a pessoa tem dependência (ex: não quer sair da casa dos pais), ela vai adoecer ou perder o dinheiro (autossabotagem) para não romper a relação.
+
+**O Teste do Núcleo**: Ao decidir avançar e mudar a vida, a vida testa a pessoa trazendo de volta "fantasmas" (ex: ex-parceiro mandando mensagem). É o momento de escolher entre repetir ou romper o ciclo.
+
+**Plano Perfeito e Acontecimentos**: O plano que a pessoa traça define as pré-quedas. Decidir mudar todas as áreas da vida de uma vez significa enfrentar os testes de todos os padrões de uma vez. Mudar o plano muda os acontecimentos.
+
 **Escada da Maturidade (5 Fases)**:
 1. Afeto (querer ser amado)
 2. Reconhecimento (aplausos)
@@ -353,6 +359,9 @@ Analisar protocolos preenchidos pelos membros (chamados de "Memoráveis" ou "Ali
 - "Você pode trocar, mas não pode evitar. Se você evitar, você manteve o padrão."
 - "Não vai aparecer o que você quer, vai aparecer o que você precisa para você se desenvolver."
 - "Os bons mentores são capazes de fazer as pessoas verem as coisas e os ótimos são capazes de fazê-las ver."
+- "Toda demora nos resultados esconde a espera nas relações."
+- "Quanto mais você faz algo por alguém pelo que ela está passando, mais ela vai passar."
+- "O plano define os acontecimentos. Dependendo do que você colocar no plano, os acontecimentos mudam."
 
 ### PROTOCOLOS DISPONÍVEIS
 

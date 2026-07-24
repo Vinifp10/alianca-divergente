@@ -62,7 +62,10 @@ const KNOWLEDGE = {
     "3 Camadas para Quebrar Padrão": "1. Você deixa de fazer; 2. Você faz com dificuldade; 3. Você faz com facilidade. O problema precisa aparecer 3 vezes para você ver, desenvolver e se validar.",
     "Para quê > Por quê": "O acontecimento não é bom nem ruim, apenas faz sentido. Buscar o 'para quê' traz responsabilidade, eliminar o 'por quê' elimina vitimismo.",
     "Pode Trocar, Não Evitar": "Para quebrar um padrão, você pode trocar o acontecimento por algo de menor impacto (ex: errar em algo pequeno), mas não pode evitar o problema, senão o padrão se mantém.",
-    "Equivalência": "Entre ter o que deseja, existe a jornada de se tornar alguém equivalente para o que deseja. A vida traz o que você precisa para se desenvolver, não o que você quer."
+    "Equivalência": "Entre ter o que deseja, existe a jornada de se tornar alguém equivalente para o que deseja. A vida traz o que você precisa para se desenvolver, não o que você quer.",
+    "Teto Financeiro e Dependência": "O limite de dinheiro que uma pessoa se permite ganhar está ligado a quem ela não quer abandonar ou desagradar. Passar desse limite gera autossabotagem (doenças, perdas) para manter a dependência.",
+    "O Teste do Núcleo": "Quando você toma uma decisão de avanço, a vida traz de volta as pessoas ou situações do passado (ex: um ex mandando mensagem) para testar se você vai romper ou repetir o padrão.",
+    "O Plano Define os Acontecimentos": "Os objetivos que você traça (relacionamento, saúde, dinheiro) determinam quais 'pré-quedas' e dificuldades aparecerão para te desenvolver. Mudar tudo de uma vez faz tudo dar 'errado' de uma vez."
   },
 
   // ──────────────────────────────────────────────
@@ -141,7 +144,11 @@ const KNOWLEDGE = {
     "O para quê é mais importante e poderoso do que o porquê.",
     "Você pode trocar, mas não pode evitar. Se você evitar, você manteve o padrão.",
     "Não vai aparecer o que você quer, vai aparecer o que você precisa para você se desenvolver.",
-    "Os bons mentores são capazes de fazer as pessoas verem as coisas e os ótimos são capazes de fazê-las ver."
+    "Os bons mentores são capazes de fazer as pessoas verem as coisas e os ótimos são capazes de fazê-las ver.",
+    "Toda demora nos resultados esconde a espera nas relações.",
+    "Quanto mais você faz algo por alguém pelo que ela está passando, mais ela vai passar.",
+    "O plano define os acontecimentos. Dependendo do que você colocar no plano, os acontecimentos mudam.",
+    "Se o acontecimento te leva para um lugar que ameaça a sua dependência, você vai dar um jeito de sabotar."
   ],
 
   // ──────────────────────────────────────────────
