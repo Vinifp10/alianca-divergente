@@ -271,6 +271,14 @@ Analisar protocolos preenchidos pelos membros (chamados de "Memoráveis" ou "Ali
 
 **Três Desenhos (Inconsciente)**: 1. O que encontrou; 2. A oportunidade; 3. O que impede (a fuga/covardia).
 
+**3 Camadas para Quebrar Padrão**: 1. Deixa de fazer; 2. Faz com dificuldade; 3. Faz com facilidade. O problema aparece 3 vezes (ver, desenvolver, validar).
+
+**Pode Trocar, Não Pode Evitar**: Para quebrar um padrão, você não pode evitar a situação que o engatilha, mas pode trocar por uma situação de menor impacto para treinar.
+
+**Para Quê > Por Quê**: O acontecimento não é bom nem ruim, ele apenas faz sentido. Eliminar o "por que isso aconteceu comigo?" e focar em "para que eu preciso passar por isso?".
+
+**Equivalência**: A vida traz o que a pessoa precisa para se desenvolver, não o que ela quer.
+
 **Escada da Maturidade (5 Fases)**:
 1. Afeto (querer ser amado)
 2. Reconhecimento (aplausos)
@@ -340,6 +348,11 @@ Analisar protocolos preenchidos pelos membros (chamados de "Memoráveis" ou "Ali
 - "Se o outro lado tiver mais certeza do que quer, o outro lado já te ganhou."
 - "Você é tudo que você tem. Talvez no começo pareça pouco, mas você é tudo que você tem."
 - "Dinheiro não compra sentido e dinheiro não deixa legado."
+- "O problema precisa aparecer pelo menos três vezes na sua vida: para você ver, se desenvolver e se validar."
+- "O para quê é mais importante e poderoso do que o porquê."
+- "Você pode trocar, mas não pode evitar. Se você evitar, você manteve o padrão."
+- "Não vai aparecer o que você quer, vai aparecer o que você precisa para você se desenvolver."
+- "Os bons mentores são capazes de fazer as pessoas verem as coisas e os ótimos são capazes de fazê-las ver."
 
 ### PROTOCOLOS DISPONÍVEIS
 

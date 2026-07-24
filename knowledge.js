@@ -58,7 +58,11 @@ const KNOWLEDGE = {
     "Modo Aleatório vs Automático": "Viver no automático é aceitável se for um script programado do que deve ser feito. Viver no aleatório é perigoso porque deixa as 'pré-quedas' confusas.",
     "Perguntas do Espelho": "Prática diária de honestidade. 1: 'O que você tem para mim?'. 2: 'O que você precisa de mim?'.",
     "4 Gatilhos da Pré-queda": "A sequência que antecede a queda: Desejo (emocional/vontade), Dúvida (mental), Decisão (racional) e Desistência (emocional/dor).",
-    "Três Desenhos": "Exercício de acesso ao inconsciente: 1. O que encontrou; 2. O que a oportunidade representa; 3. O que impede (a fuga/distração)."
+    "Três Desenhos": "Exercício de acesso ao inconsciente: 1. O que encontrou; 2. O que a oportunidade representa; 3. O que impede (a fuga/distração).",
+    "3 Camadas para Quebrar Padrão": "1. Você deixa de fazer; 2. Você faz com dificuldade; 3. Você faz com facilidade. O problema precisa aparecer 3 vezes para você ver, desenvolver e se validar.",
+    "Para quê > Por quê": "O acontecimento não é bom nem ruim, apenas faz sentido. Buscar o 'para quê' traz responsabilidade, eliminar o 'por quê' elimina vitimismo.",
+    "Pode Trocar, Não Evitar": "Para quebrar um padrão, você pode trocar o acontecimento por algo de menor impacto (ex: errar em algo pequeno), mas não pode evitar o problema, senão o padrão se mantém.",
+    "Equivalência": "Entre ter o que deseja, existe a jornada de se tornar alguém equivalente para o que deseja. A vida traz o que você precisa para se desenvolver, não o que você quer."
   },
 
   // ──────────────────────────────────────────────
@@ -132,7 +136,12 @@ const KNOWLEDGE = {
     "Você é tudo que você tem. Talvez no começo pareça pouco, mas você é tudo que você tem.",
     "Elos fracos não constroem movimentos fortes.",
     "Dinheiro não compra sentido e dinheiro não deixa legado.",
-    "Não precisa ser fácil, só precisa ser feito."
+    "Não precisa ser fácil, só precisa ser feito.",
+    "O problema precisa aparecer pelo menos três vezes na sua vida: para você ver, se desenvolver e se validar.",
+    "O para quê é mais importante e poderoso do que o porquê.",
+    "Você pode trocar, mas não pode evitar. Se você evitar, você manteve o padrão.",
+    "Não vai aparecer o que você quer, vai aparecer o que você precisa para você se desenvolver.",
+    "Os bons mentores são capazes de fazer as pessoas verem as coisas e os ótimos são capazes de fazê-las ver."
   ],
 
   // ──────────────────────────────────────────────
