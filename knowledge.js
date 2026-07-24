@@ -54,7 +54,11 @@ const KNOWLEDGE = {
     "Tatame": "Metáfora para o Grupo — é o lugar seguro de treino para a vida real.",
     "Obesidade Intelectual": "Acúmulo excessivo de conhecimento sem aplicação prática — a Aliança é contra isso.",
     "Pontos Cegos": "Aspectos que a pessoa não consegue enxergar sozinha; os aliados ajudam a revelá-los.",
-    "Projetada vs Revelada": "Distinção entre o que você ACHA que o outro pensa (projetada) vs. o que ele REVELOU de fato."
+    "Projetada vs Revelada": "Distinção entre o que você ACHA que o outro pensa (projetada) vs. o que ele REVELOU de fato.",
+    "Modo Aleatório vs Automático": "Viver no automático é aceitável se for um script programado do que deve ser feito. Viver no aleatório é perigoso porque deixa as 'pré-quedas' confusas.",
+    "Perguntas do Espelho": "Prática diária de honestidade. 1: 'O que você tem para mim?'. 2: 'O que você precisa de mim?'.",
+    "4 Gatilhos da Pré-queda": "A sequência que antecede a queda: Desejo (emocional/vontade), Dúvida (mental), Decisão (racional) e Desistência (emocional/dor).",
+    "Três Desenhos": "Exercício de acesso ao inconsciente: 1. O que encontrou; 2. O que a oportunidade representa; 3. O que impede (a fuga/distração)."
   },
 
   // ──────────────────────────────────────────────
@@ -67,6 +71,17 @@ const KNOWLEDGE = {
     { degrau: 4, titulo: "Se conecta com iguais", descricao: "Se conecta com seus iguais pelos seus ideais. Aliados se conectam por ideais compartilhados." },
     { degrau: 5, titulo: "Contagia pelos resultados", descricao: "Contagia os diferentes pelos seus resultados. Não tenta convencer ninguém de nada; apenas apresenta resultados." },
     { degrau: 6, titulo: "É ativo e vai à ação", descricao: "É ativo e vai em direção à ação. Interage ao máximo, está presente, se mostra, aparece, vive tudo o que é oferecido." }
+  ],
+
+  // ──────────────────────────────────────────────
+  // ESCADA DA MATURIDADE (As 5 Fases)
+  // ──────────────────────────────────────────────
+  escadaMaturidade: [
+    { degrau: 1, fase: "Afeto", descricao: "A busca por carência; querer ser amado." },
+    { degrau: 2, fase: "Reconhecimento", descricao: "A busca por aplausos; querer se sentir especial e ser percebido." },
+    { degrau: 3, fase: "Recompensa", descricao: "A busca por ser pago pelo que faz e entrega." },
+    { degrau: 4, fase: "Sentido", descricao: "Uma fase de significado profundo, algo que o dinheiro não compra nem paga." },
+    { degrau: 5, fase: "Legado", descricao: "A construção de algo duradouro, algo que o dinheiro não deixa por si só." }
   ],
 
   // ──────────────────────────────────────────────
@@ -107,7 +122,17 @@ const KNOWLEDGE = {
     "O medo é ótimo em dar opiniões, mas é péssimo em tomar decisões.",
     "Para se importar menos com a opinião dos outros é preciso ter coragem de ser menos importante para eles.",
     "Não é da noite para o dia, mas é todos os dias.",
-    "Não é pagar o boleto que vai fazer você ter mais permissão — é aplicar os protocolos."
+    "Não é pagar o boleto que vai fazer você ter mais permissão — é aplicar os protocolos.",
+    "Se você não sabe o que você quer, você deixa os seus gatilhos totalmente confusos.",
+    "O seu automático precisa ser um script programado daquilo que de fato você deveria fazer.",
+    "De nada adianta saber qual é a direção se você não for bancar o caminho.",
+    "A solução dói mais do que o problema quando você já está acostumado com o problema.",
+    "Se o outro lado tiver mais certeza do que quer, o outro lado já te ganhou.",
+    "A vida não é uma dívida. A vida é uma dádiva.",
+    "Você é tudo que você tem. Talvez no começo pareça pouco, mas você é tudo que você tem.",
+    "Elos fracos não constroem movimentos fortes.",
+    "Dinheiro não compra sentido e dinheiro não deixa legado.",
+    "Não precisa ser fácil, só precisa ser feito."
   ],
 
   // ──────────────────────────────────────────────

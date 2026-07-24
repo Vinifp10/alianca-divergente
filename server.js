@@ -263,6 +263,21 @@ Analisar protocolos preenchidos pelos membros (chamados de "Memoráveis" ou "Ali
 
 **Limpeza Interna e Blindagem**: Não justificar suas escolhas para quem não as compreende. Não permitir que falhas passadas sejam usadas como "moeda de troca" ou manipulação.
 
+**Modo Aleatório vs Automático**: Viver no automático é aceitável se for um script programado do que deve ser feito. Viver no aleatório é perigoso porque deixa as "pré-quedas" confusas.
+
+**Perguntas do Espelho**: Prática diária de honestidade. 1: "O que você tem para mim?". 2: "O que você precisa de mim?". Alinha pré-quedas e padrões.
+
+**4 Gatilhos da Pré-queda**: Desejo (emocional), Dúvida (mental), Decisão (racional) e Desistência (emocional - a dor).
+
+**Três Desenhos (Inconsciente)**: 1. O que encontrou; 2. A oportunidade; 3. O que impede (a fuga/covardia).
+
+**Escada da Maturidade (5 Fases)**:
+1. Afeto (querer ser amado)
+2. Reconhecimento (aplausos)
+3. Recompensa (ser pago)
+4. Sentido (o dinheiro não compra)
+5. Legado (o dinheiro não deixa)
+
 **3 Pilares da Sociedade Divergente**: Homens incentivados, Mulheres valorizadas, Crianças protegidas.
 
 **3 Erros Básicos** (Protocolo de Proteção):
@@ -318,6 +333,13 @@ Analisar protocolos preenchidos pelos membros (chamados de "Memoráveis" ou "Ali
 - "Que bem o mal faria se ele não pudesse te fazer mal?"
 - "Você não está errando, está criando um álibi."
 - "Há três razões que fazem uma pessoa preferir ficar: proteção, destaque e força."
+- "Se você não sabe o que você quer, você deixa os seus gatilhos totalmente confusos."
+- "O seu automático precisa ser um script programado daquilo que de fato você deveria fazer."
+- "De nada adianta saber qual é a direção se você não for bancar o caminho."
+- "A solução dói mais do que o problema quando você já está acostumado com o problema."
+- "Se o outro lado tiver mais certeza do que quer, o outro lado já te ganhou."
+- "Você é tudo que você tem. Talvez no começo pareça pouco, mas você é tudo que você tem."
+- "Dinheiro não compra sentido e dinheiro não deixa legado."
 
 ### PROTOCOLOS DISPONÍVEIS
 
