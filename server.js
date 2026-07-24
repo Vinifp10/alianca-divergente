@@ -285,6 +285,10 @@ Analisar protocolos preenchidos pelos membros (chamados de "Memoráveis" ou "Ali
 
 **Plano Perfeito e Acontecimentos**: O plano que a pessoa traça define as pré-quedas. Decidir mudar todas as áreas da vida de uma vez significa enfrentar os testes de todos os padrões de uma vez. Mudar o plano muda os acontecimentos.
 
+**Medo de Planejar e a Ilusão da Falta de Sonho**: Muitos dizem "não ter sonhos" ou evitam planejar porque, no fundo, sabem quem ou o que terão que enfrentar. Planejar revela quem não serve mais para a jornada.
+
+**A Regra da Pré-queda**: Se um acontecimento ruim (doença do cachorro, quebra do carro) não estiver bloqueando diretamente um dos objetivos do seu plano, ele NÃO é uma pré-queda. É só um acaso e não merece sua energia. O plano é a única bússola.
+
 **Escada da Maturidade (5 Fases)**:
 1. Afeto (querer ser amado)
 2. Reconhecimento (aplausos)
@@ -362,6 +366,9 @@ Analisar protocolos preenchidos pelos membros (chamados de "Memoráveis" ou "Ali
 - "Toda demora nos resultados esconde a espera nas relações."
 - "Quanto mais você faz algo por alguém pelo que ela está passando, mais ela vai passar."
 - "O plano define os acontecimentos. Dependendo do que você colocar no plano, os acontecimentos mudam."
+- "Um homem sem um sonho não tem motivos para viver."
+- "Se você diz que não tem sonho, é porque não tem coragem de assumir quem ou o que vai ter que enfrentar."
+- "Se não atrapalha o plano, não é pré-queda. Se não é pré-queda, não importa."
 
 ### PROTOCOLOS DISPONÍVEIS
 

@@ -65,7 +65,10 @@ const KNOWLEDGE = {
     "Equivalência": "Entre ter o que deseja, existe a jornada de se tornar alguém equivalente para o que deseja. A vida traz o que você precisa para se desenvolver, não o que você quer.",
     "Teto Financeiro e Dependência": "O limite de dinheiro que uma pessoa se permite ganhar está ligado a quem ela não quer abandonar ou desagradar. Passar desse limite gera autossabotagem (doenças, perdas) para manter a dependência.",
     "O Teste do Núcleo": "Quando você toma uma decisão de avanço, a vida traz de volta as pessoas ou situações do passado (ex: um ex mandando mensagem) para testar se você vai romper ou repetir o padrão.",
-    "O Plano Define os Acontecimentos": "Os objetivos que você traça (relacionamento, saúde, dinheiro) determinam quais 'pré-quedas' e dificuldades aparecerão para te desenvolver. Mudar tudo de uma vez faz tudo dar 'errado' de uma vez."
+    "O Plano Define os Acontecimentos": "Os objetivos que você traça (relacionamento, saúde, dinheiro) determinam quais 'pré-quedas' e dificuldades aparecerão para te desenvolver. Mudar tudo de uma vez faz tudo dar 'errado' de uma vez.",
+    "Medo de Planejar": "As pessoas evitam fazer o 'Plano Perfeito' porque o planejamento revela verdades dolorosas (ex: que um relacionamento ou emprego atual não serve mais).",
+    "A Ilusão da Falta de Sonho": "Alegar não ter um sonho é, na verdade, falta de coragem para assumi-lo, pois a pessoa já sabe inconscientemente quem ou o que terá que enfrentar para realizá-lo.",
+    "Regra da Pré-queda": "Se um acontecimento não atrapalha o seu plano, ele não é uma pré-queda. E se não é pré-queda, não é importante e não deve drenar sua energia."
   },
 
   // ──────────────────────────────────────────────
@@ -148,7 +151,11 @@ const KNOWLEDGE = {
     "Toda demora nos resultados esconde a espera nas relações.",
     "Quanto mais você faz algo por alguém pelo que ela está passando, mais ela vai passar.",
     "O plano define os acontecimentos. Dependendo do que você colocar no plano, os acontecimentos mudam.",
-    "Se o acontecimento te leva para um lugar que ameaça a sua dependência, você vai dar um jeito de sabotar."
+    "Se o acontecimento te leva para um lugar que ameaça a sua dependência, você vai dar um jeito de sabotar.",
+    "Um homem sem um sonho não tem motivos para viver.",
+    "Se você diz que não tem sonho, é porque não tem coragem de assumir quem ou o que vai ter que enfrentar.",
+    "Se o acontecimento não atrapalha o plano, não é pré-queda. Se não é pré-queda, não importa.",
+    "O problema é que vocês querem fazer sem fazer. Sem plano, não tem padrão."
   ],
 
   // ──────────────────────────────────────────────
