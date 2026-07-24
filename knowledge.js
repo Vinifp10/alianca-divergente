@@ -68,7 +68,11 @@ const KNOWLEDGE = {
     "O Plano Define os Acontecimentos": "Os objetivos que você traça (relacionamento, saúde, dinheiro) determinam quais 'pré-quedas' e dificuldades aparecerão para te desenvolver. Mudar tudo de uma vez faz tudo dar 'errado' de uma vez.",
     "Medo de Planejar": "As pessoas evitam fazer o 'Plano Perfeito' porque o planejamento revela verdades dolorosas (ex: que um relacionamento ou emprego atual não serve mais).",
     "A Ilusão da Falta de Sonho": "Alegar não ter um sonho é, na verdade, falta de coragem para assumi-lo, pois a pessoa já sabe inconscientemente quem ou o que terá que enfrentar para realizá-lo.",
-    "Regra da Pré-queda": "Se um acontecimento não atrapalha o seu plano, ele não é uma pré-queda. E se não é pré-queda, não é importante e não deve drenar sua energia."
+    "Regra da Pré-queda": "Se um acontecimento não atrapalha o seu plano, ele não é uma pré-queda. E se não é pré-queda, não é importante e não deve drenar sua energia.",
+    "Desculpas em Motivos": "A diferença entre usar uma condição como justificativa para ficar paralisado ou como o próprio motivo para se mover e agir.",
+    "O Preço do Plano": "Todo sonho ou plano tem um preço. Se a pessoa não está disposta ou não pode pagar esse preço, a única solução realista é diminuir o plano.",
+    "Protocolo não é Oração": "Rodar protocolo sem agir (sem concluir o PDA) é usá-lo como fuga. O protocolo exige mudança de comportamento e não deve ser usado como uma reza esperando que o outro mude magicamente.",
+    "Constranger o Outro (Ação Extrema)": "Para quebrar o padrão de alguém (ex: parceiro folgado), ao invés de brigar, você faz MAIS do que o esperado (ex: se arruma e atende perfeitamente). O constrangimento obriga o outro a mudar o comportamento."
   },
 
   // ──────────────────────────────────────────────
@@ -155,7 +159,12 @@ const KNOWLEDGE = {
     "Um homem sem um sonho não tem motivos para viver.",
     "Se você diz que não tem sonho, é porque não tem coragem de assumir quem ou o que vai ter que enfrentar.",
     "Se o acontecimento não atrapalha o plano, não é pré-queda. Se não é pré-queda, não importa.",
-    "O problema é que vocês querem fazer sem fazer. Sem plano, não tem padrão."
+    "O problema é que vocês querem fazer sem fazer. Sem plano, não tem padrão.",
+    "Transforme suas desculpas em motivos que vão te mover.",
+    "As pessoas têm um sonho, criam um plano, mas se esquecem do preço do plano.",
+    "Você acha que eu vou dar aumento para quem não gosta de mim ou acha que eu não gosto dele?",
+    "Não transforme protocolo numa oração. Tem gente usando protocolo para esconder o PDA que não concluiu.",
+    "Se você não banca esse plano, diminua. Troque o plano, reduza o plano."
   ],
 
   // ──────────────────────────────────────────────

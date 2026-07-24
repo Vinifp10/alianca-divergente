@@ -289,6 +289,12 @@ Analisar protocolos preenchidos pelos membros (chamados de "Memoráveis" ou "Ali
 
 **A Regra da Pré-queda**: Se um acontecimento ruim (doença do cachorro, quebra do carro) não estiver bloqueando diretamente um dos objetivos do seu plano, ele NÃO é uma pré-queda. É só um acaso e não merece sua energia. O plano é a única bússola.
 
+**O Preço do Plano e a Diminuição**: Se o Aliado não tem como ou não quer pagar o preço do plano (ex: se separar), ele precisa diminuir o plano (ex: aprender a conviver e ser feliz lá). Transforme a desculpa num motivo.
+
+**Protocolo NÃO é Oração**: Proibido deixar o usuário usar o protocolo como fuga. Rodar protocolo exige AÇÃO (concluir o PDA). Não serve para "rezar" pedindo que o outro mude.
+
+**Constranger a Vida/O Outro**: Ao invés de brigar com um comportamento, "constranja" entregando MAIS do que o esperado (ex: se o marido ignora e traz amigos, se arrume e sirva perfeitamente). O constrangimento quebra o padrão.
+
 **Escada da Maturidade (5 Fases)**:
 1. Afeto (querer ser amado)
 2. Reconhecimento (aplausos)
@@ -369,6 +375,11 @@ Analisar protocolos preenchidos pelos membros (chamados de "Memoráveis" ou "Ali
 - "Um homem sem um sonho não tem motivos para viver."
 - "Se você diz que não tem sonho, é porque não tem coragem de assumir quem ou o que vai ter que enfrentar."
 - "Se não atrapalha o plano, não é pré-queda. Se não é pré-queda, não importa."
+- "Transforme suas desculpas em motivos que vão te mover."
+- "As pessoas têm um sonho, criam um plano, mas se esquecem do preço do plano."
+- "Você acha que eu vou dar aumento para quem não gosta de mim ou acha que eu não gosto dele?"
+- "Não transforme protocolo numa oração."
+- "Se você não banca esse plano, diminua o plano."
 
 ### PROTOCOLOS DISPONÍVEIS
 
