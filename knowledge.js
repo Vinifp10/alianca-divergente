@@ -188,7 +188,21 @@ const KNOWLEDGE = {
     "Nós somos seres racionais com reflexos emocionais por conta das nossas ligações relacionais.",
     "Condição não pode gerar obrigação.",
     "Procure um Deus para que você o sirva, e não um Deus que te sirva."
-  ],
+  ,
+    "Parabéns, você merece e não pare.",
+    "A vida não entende problema, a vida não entende sonhos, a vida entende decisões.",
+    "Na jornada da vida, alguns seguem seus planos enquanto outros são guiados pelos acontecimentos.",
+    "O progresso é tão importante quanto o resultado.",
+    "O impossível é só questão de companhia e você está na melhor companhia possível.",
+    "Sem culpa nem desculpa.",
+    "A dependência emocional é uma prisão sem grades, sem sentença e sem pena.",
+    "O sentimento é a força, a razão é a direção.",
+    "O que merece ser feito merece ser bem feito.",
+    "A melhor cobrança é apenas uma lembrança.",
+    "O outro é só o outro.",
+    "A expectativa nunca pode ser maior do que a intenção.",
+    "A sua versão que resolve o problema precisa ser maior do que a sua versão que criou o problema.",
+    "O medo que você sente hoje define o nível de jogo que você está jogando."],
 
   // ──────────────────────────────────────────────
   // PREMISSAS FUNDAMENTAIS

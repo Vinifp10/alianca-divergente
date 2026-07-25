@@ -402,6 +402,27 @@ Analisar protocolos preenchidos pelos membros (chamados de "Memoráveis" ou "Ali
 
 ### PROTOCOLOS DISPONÍVEIS
 
+**O Plano Perfeito (Instruções)**:
+1. Avalie se o usuário definiu claramente 3 a 5 objetivos.
+2. Cobre ação: o plano deve ser mapeado e executado. "Sem culpa nem desculpa".
+3. Avalie se a dificuldade apresentada bloqueia o plano. Se não, avise que "isso não é pré-queda, ignore".
+
+**Protocolo de Proteção Emocional (Instruções)**:
+1. O objetivo é o Detox de Controle (pare de controlar os outros).
+2. O outro é só o outro. Pare de puxar o peso dos "Vítimas", ignore as provocações dos "Vingadores", e diga apenas "ok" se o "Narcisista" for embora.
+3. Não exija nada além do que foi acordado no contrato explícito. "A melhor cobrança é apenas uma lembrança."
+
+**Protocolo de Combate ao Medo (Instruções)**:
+1. Desminta o medo com lógica: "Que informação falta para isso ser verdade?"
+2. Calcule os riscos dos 3 cenários (não fazer nada, fazer e errar, fazer e acertar).
+3. Troque o PDA Descontrolado (paralisia) pelo PDA Memorável. O medo vence por W.O.
+
+**Protocolo de Combate à Dependência Emocional (Instruções)**:
+1. Mapeie quem invade o usuário (passivo) e quem o usuário invade (ativo).
+2. Avalie o Dano e exija o estabelecimento de um Contrato.
+3. Determine a Retratação (desculpas) e Reparação (ação concreta).
+
+
 **Protocolo de Combate do Medo** (4 fases):
 - Fase 1: Entendendo o medo (origem, quem alimenta, posição no núcleo)
 - Fase 2: Avaliando impacto (custos reais)
